@@ -1,18 +1,34 @@
 # NodeJs_TypeScript_Setup
-This projects acts as a quick set up project for using nodejs with typescript.
-It utilized nodemon for running your app.ts file on save.
+This projects acts as a quick set up project for using Node.js with TypeScript.
 
-##
-Run ```npm install``` after initial clone
+Dependencies used:
 
-###
-run ```npm run dev``` to start developing with typescript support in app.ts file
+```
+ "@types/node": "^17.0.24",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+```
 
-###
-run ```npm run build``` to build the app.js file
-This will also create a dist-folder in which the app.js file will be placed.
+## Check if TypeScript is installed on your machine
 
-###
-run ```npm run start``` to start server using the app.js file
+Run ```tsc --version``` in your command line.
+
+If TypeScript is not installed. Look up the TypeScript documentation.
+
+## Setup
+
+
+Run ```npm install``` after initial clone.
+
+
+Run ```npm run dev``` to start developing with TypeScript support in ```app.ts``` file.
+
+
+Run ```npm run build``` to build the ```app.js``` file.
+This will also create a dist folder in which the ```app.js``` file will be placed.
+
+
+Run ```npm run start``` to start server using the ```app.js``` file
 
 
